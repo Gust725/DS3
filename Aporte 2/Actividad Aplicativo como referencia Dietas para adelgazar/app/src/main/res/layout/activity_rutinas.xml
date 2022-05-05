@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main"
+    tools:context=".Rutinas">
+
+    <ScrollView
+        android:layout_width="370dp"
+        android:layout_height="669dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.741">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:background="@color/colorPrimary"
+                android:layout_marginBottom="20dp">
+
+                <RelativeLayout
+                    android:layout_width="144dp"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/imagenejercicio1"
+                        android:layout_width="121dp"
+                        android:layout_height="124dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="11dp"
+                        android:layout_marginTop="18dp"
+                        android:layout_marginEnd="12dp"
+                        android:layout_marginBottom="18dp"
+                        android:layout_weight="1"
+                        tools:srcCompat="@tools:sample/avatars" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/nroejercicio1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="@font/rubik_mono_one"
+                        android:text="TextView" />
+
+                    <TextView
+                        android:id="@+id/nrorepejercicio1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="TextView"
+                        android:layout_marginTop="5dp"/>
+
+                    <TextView
+                        android:id="@+id/tiemporepejercicio1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="TextView"
+                        android:layout_marginTop="5dp"/>
+
+                    <TextView
+                        android:id="@+id/tiempodesejercicio1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="TextView"
+                        android:layout_marginTop="5dp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:background="@color/colorPrimary"
+                android:layout_marginBottom="20dp">
+
+                <RelativeLayout
+                    android:layout_width="144dp"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/imagenejercicio2"
+                        android:layout_width="121dp"
+                        android:layout_height="124dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="11dp"
+                        android:layout_marginTop="18dp"
+                        android:layout_marginEnd="12dp"
+                        android:layout_marginBottom="18dp"
+                        android:layout_weight="1"
+                        tools:srcCompat="@tools:sample/avatars" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/nroejercicio2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="@font/rubik_mono_one"
+                        android:text="TextView" />
+
+                    <TextView
+                        android:id="@+id/nrorepejercicio2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="TextView"
+                        android:layout_marginTop="5dp"/>
+
+                    <TextView
+                        android:id="@+id/tiemporepejercicio2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="TextView"
+                        android:layout_marginTop="5dp"/>
+
+                    <TextView
+                        android:id="@+id/tiempodesejercicio2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="TextView"
+                        android:layout_marginTop="5dp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:background="@color/colorPrimary"
+                android:layout_marginBottom="20dp">
+
+                <RelativeLayout
+                    android:layout_width="144dp"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/imagenejercicio3"
+                        android:layout_width="121dp"
+                        android:layout_height="124dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="11dp"
+                        android:layout_marginTop="18dp"
+                        android:layout_marginEnd="12dp"
+                        android:layout_marginBottom="18dp"
+                        android:layout_weight="1"
+                        tools:srcCompat="@tools:sample/avatars" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/nroejercicio3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="@font/rubik_mono_one"
+                        android:text="TextView" />
+
+                    <TextView
+                        android:id="@+id/nrorepejercicio3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="TextView"
+                        android:layout_marginTop="5dp"/>
+
+                    <TextView
+                        android:id="@+id/tiemporepejercicio3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="TextView"
+                        android:layout_marginTop="5dp"/>
+
+                    <TextView
+                        android:id="@+id/tiempodesejercicio3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="TextView"
+                        android:layout_marginTop="5dp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:background="@color/colorPrimary"
+                android:layout_marginBottom="20dp">
+
+                <RelativeLayout
+                    android:layout_width="144dp"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/imagenejercicio4"
+                        android:layout_width="121dp"
+                        android:layout_height="124dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="11dp"
+                        android:layout_marginTop="18dp"
+                        android:layout_marginEnd="12dp"
+                        android:layout_marginBottom="18dp"
+                        android:layout_weight="1"
+                        tools:srcCompat="@tools:sample/avatars" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/nroejercicio4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="@font/rubik_mono_one"
+                        android:text="TextView" />
+
+                    <TextView
+                        android:id="@+id/nrorepejercicio4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="TextView"
+                        android:layout_marginTop="5dp"/>
+
+                    <TextView
+                        android:id="@+id/tiemporepejercicio4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="TextView"
+                        android:layout_marginTop="5dp"/>
+
+                    <TextView
+                        android:id="@+id/tiempodesejercicio4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="TextView"
+                        android:layout_marginTop="5dp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:background="@color/colorPrimary"
+                android:layout_marginBottom="20dp">
+
+                <RelativeLayout
+                    android:layout_width="144dp"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/imagenejercicio5"
+                        android:layout_width="121dp"
+                        android:layout_height="124dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="11dp"
+                        android:layout_marginTop="18dp"
+                        android:layout_marginEnd="12dp"
+                        android:layout_marginBottom="18dp"
+                        android:layout_weight="1"
+                        tools:srcCompat="@tools:sample/avatars" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/nroejercicio5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="@font/rubik_mono_one"
+                        android:text="TextView" />
+
+                    <TextView
+                        android:id="@+id/nrorepejercicio5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="TextView"
+                        android:layout_marginTop="5dp"/>
+
+                    <TextView
+                        android:id="@+id/tiemporepejercicio5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="TextView"
+                        android:layout_marginTop="5dp"/>
+
+                    <TextView
+                        android:id="@+id/tiempodesejercicio5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="TextView"
+                        android:layout_marginTop="5dp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

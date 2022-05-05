@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_img"
+    tools:context=".GenerosActivity"
+    android:id="@+id/general">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/txvGenero"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:text="GENERIOIII"
+            android:textAlignment="center"
+            android:textColor="#F8F8F8"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+        <ImageView
+            android:id="@+id/ImgPortada"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/pruebacancion" />
+        <TextView
+            android:id="@+id/relleno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:gravity="center"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/TituloCancion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/audiowide"
+            android:gravity="center"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+        <TextView
+            android:id="@+id/Descripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:paddingBottom="5dp"/>
+
+        <Button
+            android:id="@+id/pagoficial"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#050505"
+            android:onClick="paginaurl"
+            android:text="Pagina oficial"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/Duracion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="--:-- / --:--"
+            android:textAlignment="center"
+            android:textColor="#FDFCFC"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:paddingTop="50dp"/>
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:indeterminate="false"
+            android:max="100"
+            android:progress="5"
+            android:progressBackgroundTint="#F3EFEF"
+            android:progressBackgroundTintMode="src_in"
+            android:progressTint="#FA0202"
+            android:paddingBottom="3dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#00FFFFFF"
+                android:onClick="Retroceder"
+                app:srcCompat="@drawable/retrocederbutton" />
+
+            <ImageButton
+                android:id="@+id/playpause"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#00FFFFFF"
+                android:onClick="playpause"
+                app:srcCompat="@drawable/playbutton" />
+
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#00FFFFFF"
+                android:onClick="Avanzar"
+                app:srcCompat="@drawable/avanzarbutton" />
+
+            <ImageButton
+                android:id="@+id/imageButton4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#00FFFFFF"
+                android:onClick="Stop"
+                app:srcCompat="@drawable/stopbutton" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
